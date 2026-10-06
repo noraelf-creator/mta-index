@@ -4,6 +4,8 @@ window.SITE_CONFIG = {
   memoApi: 'https://mother-president-sync.noraelf-mta-review.workers.dev',
   // v5のページのメモは page_id の先頭にこれを付けて保存する
   pagePrefix: 'v5-',
+  // 端末内の保存領域の名前（他作品のINDEXと混ざらないように）
+  storagePrefix: 'mta-v5:',
   legacySessionKey: 'mta-index:mta:session',
   v2Url: 'https://noraelf-creator.github.io/mta-review/'
 };

@@ -3,7 +3,7 @@
   'use strict';
   const D = window.SITE_DATA;
   const CFG = window.SITE_CONFIG || {};
-  const PREFIX = 'mp-rv1:';
+  const PREFIX = CFG.storagePrefix || 'mta-v5:';
   const PAGE_PREFIX = CFG.pagePrefix || 'rv1-';
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
